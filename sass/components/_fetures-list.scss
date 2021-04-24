@@ -1,0 +1,11 @@
+.features-list {
+  display: flex;
+}
+
+.features-list .item {
+  width: calc((100% - 90px) / 4);
+}
+
+.features-list .item:not(:last-child) {
+  margin-right: 30px;
+}

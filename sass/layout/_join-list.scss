@@ -1,0 +1,7 @@
+.join .list {
+  display: flex;
+}
+
+.join .item:not(:last-child) {
+  margin-right: 10px;
+}
